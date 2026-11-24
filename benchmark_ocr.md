@@ -41,16 +41,17 @@ A separate integration and evaluation process is needed to benchmark these techn
 ## 3. Prerequisites
 
 ### Software
+
 - Python 3.10+
 - Tesseract OCR
 - VS Code or another Python IDE
 
 ### Python dependencies
 
-Install the required libraries:
+Install the required libraries using PowerShell:
 
-```bash
-pip install pytesseract easyocr pillow
+```powershell
+py -m pip install pytesseract easyocr pillow
 ```
 
 ### Python standard-library modules
@@ -118,8 +119,8 @@ tesseract --list-langs
 
 EasyOCR is installed through pip:
 
-```bash
-pip install easyocr
+```powershell
+py -m pip install easyocr
 ```
 
 The current benchmark initializes EasyOCR with English:
@@ -189,14 +190,14 @@ The script supports selecting an OCR engine through a command-line argument.
 
 ### Run Tesseract
 
-```bash
-python benchmark_ocr.py --engine tesseract --runs 3
+```powershell
+py benchmark_ocr.py --engine tesseract --runs 3
 ```
 
 ### Run EasyOCR
 
-```bash
-python benchmark_ocr.py --engine easyocr --runs 3
+```powershell
+py benchmark_ocr.py --engine easyocr --runs 3
 ```
 
 The script performs these steps:
@@ -208,6 +209,8 @@ The script performs these steps:
 5. Compare extracted text against the corresponding ground-truth `.txt` file when available.
 6. Calculate CER and WER.
 7. Export results to CSV.
+
+**Note:** Run these commands from the directory containing `benchmark_ocr.py`, or provide the correct relative path to the script.
 
 ## 8. Evaluation Metrics
 

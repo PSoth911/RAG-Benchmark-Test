@@ -30,10 +30,10 @@ The benchmark focuses on:
 
 ### Python dependencies
 
-Install the required package:
+Install the required package using PowerShell:
 
-```bash
-pip install requests
+```powershell
+py -m pip install requests
 ```
 
 The following modules are included in Python's standard library:
@@ -50,7 +50,7 @@ First, make sure Ollama is installed and running.
 
 Download the models:
 
-```bash
+```powershell
 ollama pull qwen3:8b
 ollama pull llama3.1:8b
 ollama pull gemma3:4b
@@ -59,7 +59,7 @@ ollama pull qwen3:4b
 
 Check downloaded models:
 
-```bash
+```powershell
 ollama list
 ```
 
@@ -79,19 +79,25 @@ Example prompt:
 
 Each model receives the same prompt and is tested multiple times.
 
-Example:
+### Example execution
 
-```bash
-python benchmark_llm.py --model qwen3:8b --runs 3
+Run the Qwen3 8B benchmark:
+
+```powershell
+py benchmark_llm.py --model qwen3:8b --runs 3
 ```
 
 Repeat the process for each model:
 
-```bash
-python benchmark_llm.py --model llama3.1:8b --runs 3
-python benchmark_llm.py --model gemma3:4b --runs 3
-python benchmark_llm.py --model qwen3:4b --runs 3
+```powershell
+py benchmark_llm.py --model llama3.1:8b --runs 3
+
+py benchmark_llm.py --model gemma3:4b --runs 3
+
+py benchmark_llm.py --model qwen3:4b --runs 3
 ```
+
+**Note:** Run these commands from the directory containing `benchmark_llm.py`, or provide the correct relative path to the script.
 
 ## 6. Evaluation Metrics
 

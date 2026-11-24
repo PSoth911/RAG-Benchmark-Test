@@ -31,8 +31,10 @@ The benchmark focuses on:
 
 ### Python dependencies
 
-```bash
-pip install requests
+Install the required dependency using PowerShell:
+
+```powershell
+py -m pip install requests
 ```
 
 The following modules are included in Python's standard library:
@@ -47,7 +49,7 @@ The following modules are included in Python's standard library:
 
 Download the embedding models:
 
-```bash
+```powershell
 ollama pull bge-m3
 ollama pull nomic-embed-text
 ollama pull qwen3-embedding:0.6b
@@ -55,7 +57,7 @@ ollama pull qwen3-embedding:0.6b
 
 Check available models:
 
-```bash
+```powershell
 ollama list
 ```
 
@@ -106,18 +108,23 @@ The script performs the following steps:
 6. Calculate throughput.
 7. Export the results to CSV.
 
-Example execution:
+### Example execution
 
-```bash
-python benchmark_embedding.py --model bge-m3 --runs 3
+Run the BGE-M3 benchmark:
+
+```powershell
+py benchmark_embedding.py --model bge-m3 --runs 3
 ```
 
 Run the remaining models:
 
-```bash
-python benchmark_embedding.py --model nomic-embed-text --runs 3
-python benchmark_embedding.py --model qwen3-embedding:0.6b --runs 3
+```powershell
+py benchmark_embedding.py --model nomic-embed-text --runs 3
+
+py benchmark_embedding.py --model qwen3-embedding:0.6b --runs 3
 ```
+
+**Note:** Run these commands from the directory containing `benchmark_embedding.py`, or provide the correct relative path to the script.
 
 ## 7. Evaluation Metrics
 
