@@ -1,22 +1,122 @@
 [
   {
-    "id": "DOC001",
-    "text": "The company reported total revenue of $5 million in 2025."
+    "id": "FIN001",
+    "text": "Inflation is a sustained increase in the general price level of goods and services in an economy. It reduces the purchasing power of money because consumers need more money to purchase the same products. Inflation is commonly measured using the Consumer Price Index (CPI), which tracks price changes in a representative basket of household goods and services."
   },
   {
-    "id": "DOC002",
-    "text": "The company's operating expenses increased by 10 percent in 2025."
+    "id": "FIN002",
+    "text": "Demand-pull inflation occurs when aggregate demand for goods and services increases faster than the economy's productive capacity. Strong consumer spending, increased government expenditure, and higher investment can contribute to this type of inflation. Businesses may respond to strong demand by raising prices."
   },
   {
-    "id": "DOC003",
-    "text": "The company reported a net profit of $1.2 million in 2025."
+    "id": "FIN003",
+    "text": "Cost-push inflation occurs when the costs of producing goods and services increase. Higher wages, energy prices, raw material costs, and transportation expenses can increase business operating costs. Companies may transfer these additional costs to consumers through higher prices."
   },
   {
-    "id": "DOC004",
-    "text": "The company had total revenue of $4 million in 2024."
+    "id": "FIN004",
+    "text": "Central banks manage monetary policy to maintain price stability and support sustainable economic activity. Common monetary policy tools include changing policy interest rates, conducting open market operations, and adjusting reserve requirements. These tools influence borrowing, lending, spending, and investment."
   },
   {
-    "id": "DOC005",
-    "text": "The company expanded its operations into three new markets."
+    "id": "FIN005",
+    "text": "Increasing interest rates makes borrowing more expensive for households and businesses. Higher borrowing costs can reduce consumer spending and business investment. This can decrease aggregate demand and help control inflation, although it may also slow economic growth."
+  },
+  {
+    "id": "FIN006",
+    "text": "Reducing interest rates makes borrowing less expensive. Lower borrowing costs can encourage households to obtain loans and businesses to invest in expansion. Increased spending and investment may stimulate economic activity, particularly during periods of weak demand."
+  },
+  {
+    "id": "FIN007",
+    "text": "Gross Domestic Product, or GDP, measures the total market value of final goods and services produced within a country's borders during a specific period. GDP is commonly used to evaluate economic output and growth. It can be calculated using expenditure, income, or production approaches."
+  },
+  {
+    "id": "FIN008",
+    "text": "Economic recession refers to a significant decline in economic activity that affects production, employment, income, and spending. Recessions may result from financial crises, reduced consumer demand, high interest rates, or external economic shocks."
+  },
+  {
+    "id": "FIN009",
+    "text": "Unemployment occurs when people who are available for work and actively seeking employment cannot find jobs. The unemployment rate is calculated as the number of unemployed people divided by the total labor force, multiplied by one hundred."
+  },
+  {
+    "id": "FIN010",
+    "text": "Fiscal policy describes how governments use taxation and public spending to influence economic conditions. Governments may increase expenditure or reduce taxes to stimulate demand, or decrease expenditure and increase taxes to reduce demand."
+  },
+  {
+    "id": "FIN011",
+    "text": "Commercial banks provide financial services such as accepting deposits, issuing loans, processing payments, and facilitating transfers. They connect depositors who have available funds with borrowers who need financing."
+  },
+  {
+    "id": "FIN012",
+    "text": "Savings accounts allow individuals to store money in a bank while earning interest. These accounts generally provide easier access to funds than fixed-term deposit products. Interest rates and withdrawal conditions vary depending on the financial institution."
+  },
+  {
+    "id": "FIN013",
+    "text": "Fixed deposits allow customers to place money with a bank for a predetermined period. The bank typically offers an agreed interest rate in exchange for keeping the money deposited until maturity. Early withdrawal may involve penalties or reduced interest."
+  },
+  {
+    "id": "FIN014",
+    "text": "Compound interest is interest calculated on the original principal and previously accumulated interest. Over time, the interest itself generates additional interest. The effect becomes more significant with longer investment periods and higher compounding frequencies."
+  },
+  {
+    "id": "FIN015",
+    "text": "Simple interest is calculated only on the original principal amount. It does not include previously earned interest in future interest calculations. The formula is simple interest equals principal multiplied by annual interest rate multiplied by time."
+  },
+  {
+    "id": "FIN016",
+    "text": "A loan is a financial agreement in which a lender provides money to a borrower. The borrower agrees to repay the principal amount and any applicable interest according to a repayment schedule. Loans may be secured or unsecured."
+  },
+  {
+    "id": "FIN017",
+    "text": "A mortgage is a secured loan used to finance the purchase of property. The property acts as collateral for the loan. If the borrower fails to make required payments, the lender may have legal rights to repossess or foreclose on the property, depending on applicable laws."
+  },
+  {
+    "id": "FIN018",
+    "text": "Credit risk is the possibility that a borrower or financial counterparty will fail to meet agreed payment obligations. Financial institutions assess credit risk using borrower income, repayment history, existing debt, and other financial information."
+  },
+  {
+    "id": "FIN019",
+    "text": "Liquidity describes how easily an asset can be converted into cash without a significant loss in value. Cash is highly liquid, while real estate is generally less liquid because selling property can take considerable time."
+  },
+  {
+    "id": "FIN020",
+    "text": "Financial markets provide platforms where investors trade financial instruments such as stocks, bonds, currencies, and derivatives. These markets help businesses raise capital and allow investors to allocate funds across different assets."
+  },
+  {
+    "id": "FIN021",
+    "text": "Stocks represent ownership shares in a company. Investors may earn returns through increases in share prices or dividend payments. Stock prices can fluctuate because of company performance, economic conditions, investor expectations, and market sentiment."
+  },
+  {
+    "id": "FIN022",
+    "text": "Bonds are debt securities issued by governments, municipalities, and corporations to raise funds. Investors lend money to the issuer and may receive periodic interest payments. The issuer is generally expected to repay the principal at maturity."
+  },
+  {
+    "id": "FIN023",
+    "text": "Investment diversification involves spreading money across different investments, asset classes, industries, or geographical regions. Diversification can reduce exposure to risks associated with a single investment, although it cannot eliminate all investment risk."
+  },
+  {
+    "id": "FIN024",
+    "text": "Mutual funds collect money from multiple investors and invest it in a portfolio of assets such as stocks, bonds, and money market instruments. Professional fund managers may make investment decisions according to the fund's objectives."
+  },
+  {
+    "id": "FIN025",
+    "text": "An exchange rate indicates how much one currency is worth in terms of another currency. Exchange rates influence international trade, travel expenses, foreign investment, and the cost of imported goods."
+  },
+  {
+    "id": "FIN026",
+    "text": "Currency depreciation occurs when the value of a currency falls relative to another currency. Depreciation can make exports cheaper for foreign buyers while making imported products more expensive for domestic consumers."
+  },
+  {
+    "id": "FIN027",
+    "text": "Foreign direct investment occurs when an individual or company invests in business operations in another country with the intention of establishing a lasting interest. It may involve building facilities, acquiring companies, or expanding business operations."
+  },
+  {
+    "id": "FIN028",
+    "text": "A trade deficit occurs when a country imports more goods and services than it exports over a given period. A trade deficit is one component of international trade statistics and may be influenced by domestic demand, exchange rates, and international competitiveness."
+  },
+  {
+    "id": "FIN029",
+    "text": "Public debt is the accumulated borrowing of a government. Governments borrow money to finance public expenditure, infrastructure, and budget deficits. Public debt can be issued through government bonds and other borrowing instruments."
+  },
+  {
+    "id": "FIN030",
+    "text": "A government budget deficit occurs when public expenditure exceeds government revenue during a fiscal period. Governments may finance deficits by borrowing, issuing debt securities, or using other financing methods."
   }
 ]

@@ -1,17 +1,152 @@
 [
   {
     "id": "Q001",
-    "text": "What was the company's revenue in 2025?",
-    "relevant_docs": ["DOC001"]
+    "text": "What does inflation mean and how does it affect purchasing power?",
+    "relevant_docs": ["FIN001"]
   },
   {
     "id": "Q002",
-    "text": "What was the company's net profit in 2025?",
-    "relevant_docs": ["DOC003"]
+    "text": "Why do prices increase when consumers want to buy more products than businesses can supply?",
+    "relevant_docs": ["FIN002"]
   },
   {
     "id": "Q003",
-    "text": "How much revenue did the company generate in 2024?",
-    "relevant_docs": ["DOC004"]
+    "text": "How do increasing production and raw material costs affect consumer prices?",
+    "relevant_docs": ["FIN003"]
+  },
+  {
+    "id": "Q004",
+    "text": "What tools can a central bank use to control the economy?",
+    "relevant_docs": ["FIN004"]
+  },
+  {
+    "id": "Q005",
+    "text": "How can raising borrowing costs help reduce inflation?",
+    "relevant_docs": ["FIN005"]
+  },
+  {
+    "id": "Q006",
+    "text": "What happens to business investment when borrowing becomes cheaper?",
+    "relevant_docs": ["FIN006"]
+  },
+  {
+    "id": "Q007",
+    "text": "How do economists measure the total production of a country?",
+    "relevant_docs": ["FIN007"]
+  },
+  {
+    "id": "Q008",
+    "text": "What happens to an economy during a recession?",
+    "relevant_docs": ["FIN008"]
+  },
+  {
+    "id": "Q009",
+    "text": "How is the unemployment percentage calculated?",
+    "relevant_docs": ["FIN009"]
+  },
+  {
+    "id": "Q010",
+    "text": "How can governments use taxes and spending to influence economic activity?",
+    "relevant_docs": ["FIN010"]
+  },
+  {
+    "id": "Q011",
+    "text": "What services do commercial banks provide to their customers?",
+    "relevant_docs": ["FIN011"]
+  },
+  {
+    "id": "Q012",
+    "text": "Where can people keep their money while earning interest and maintaining access to it?",
+    "relevant_docs": ["FIN012"]
+  },
+  {
+    "id": "Q013",
+    "text": "What is a bank deposit that locks money for an agreed period and interest rate?",
+    "relevant_docs": ["FIN013"]
+  },
+  {
+    "id": "Q014",
+    "text": "How does earning interest on previously earned interest work?",
+    "relevant_docs": ["FIN014"]
+  },
+  {
+    "id": "Q015",
+    "text": "Which interest calculation uses only the initial amount borrowed or invested?",
+    "relevant_docs": ["FIN015"]
+  },
+  {
+    "id": "Q016",
+    "text": "What are the responsibilities of someone who borrows money from a lender?",
+    "relevant_docs": ["FIN016"]
+  },
+  {
+    "id": "Q017",
+    "text": "What type of financing allows someone to purchase a house using the property as security?",
+    "relevant_docs": ["FIN017"]
+  },
+  {
+    "id": "Q018",
+    "text": "What is the danger that a borrower might not repay a bank?",
+    "relevant_docs": ["FIN018"]
+  },
+  {
+    "id": "Q019",
+    "text": "Which assets can be converted into cash quickly without losing much value?",
+    "relevant_docs": ["FIN019"]
+  },
+  {
+    "id": "Q020",
+    "text": "Where can investors buy and sell stocks and bonds?",
+    "relevant_docs": ["FIN020"]
+  },
+  {
+    "id": "Q021",
+    "text": "How can shareholders earn money from owning company shares?",
+    "relevant_docs": ["FIN021"]
+  },
+  {
+    "id": "Q022",
+    "text": "How do governments and companies borrow money from investors through securities?",
+    "relevant_docs": ["FIN022"]
+  },
+  {
+    "id": "Q023",
+    "text": "How can investors reduce the risk of putting all their money into one investment?",
+    "relevant_docs": ["FIN023"]
+  },
+  {
+    "id": "Q024",
+    "text": "What investment product pools money from many people to purchase different assets?",
+    "relevant_docs": ["FIN024"]
+  },
+  {
+    "id": "Q025",
+    "text": "How much is one country's currency worth compared with another country's currency?",
+    "relevant_docs": ["FIN025"]
+  },
+  {
+    "id": "Q026",
+    "text": "What happens to imports and exports when a country's currency loses value?",
+    "relevant_docs": ["FIN026"]
+  },
+  {
+    "id": "Q027",
+    "text": "What does it mean when a company invests in establishing business operations abroad?",
+    "relevant_docs": ["FIN027"]
+  },
+  {
+    "id": "Q028",
+    "text": "When does a country purchase more from other countries than it sells to them?",
+    "relevant_docs": ["FIN028"]
+  },
+  {
+    "id": "Q029",
+    "text": "What is the total amount of money that a government owes to its creditors?",
+    "relevant_docs": ["FIN029"]
+  },
+  {
+    "id": "Q030",
+    "text": "What happens when a government's spending is greater than its income?",
+    "relevant_docs": ["FIN030"]
   }
 ]

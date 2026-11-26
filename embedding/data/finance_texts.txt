@@ -1,0 +1,41 @@
+Inflation occurs when the general price level of goods and services increases over time, reducing the purchasing power of money.
+Central banks use monetary policy to control inflation by adjusting interest rates and managing the money supply.
+An increase in consumer demand can cause demand-pull inflation when demand grows faster than the economy's ability to produce goods and services.
+Cost-push inflation occurs when production costs increase, causing businesses to raise prices for consumers.
+Interest rates represent the cost of borrowing money or the return earned on savings and investments.
+A central bank may increase interest rates to reduce borrowing and spending, helping slow down inflation.
+When interest rates decrease, borrowing becomes cheaper, which may encourage consumers and businesses to spend and invest.
+Gross Domestic Product measures the total monetary value of final goods and services produced within a country during a specific period.
+Economic growth occurs when a country's production of goods and services increases over time.
+A recession is commonly associated with a significant decline in economic activity across the economy.
+Unemployment measures the percentage of people in the labor force who are actively seeking work but cannot find employment.
+Fiscal policy refers to government decisions about taxation and public spending to influence economic activity.
+Expansionary fiscal policy involves increasing government spending or reducing taxes to stimulate economic growth.
+Contractionary fiscal policy involves reducing government spending or increasing taxes to control inflation.
+Monetary policy is managed by a country's central bank to influence money supply, credit conditions, and interest rates.
+Commercial banks accept deposits from customers and provide loans to individuals and businesses.
+A savings account allows customers to deposit money and earn interest while keeping their funds accessible.
+A fixed deposit is a banking product in which money is deposited for a specified period in exchange for an agreed interest rate.
+Compound interest is calculated on both the original principal and accumulated interest from previous periods.
+Simple interest is calculated only on the original principal amount over a specified period.
+A loan is money borrowed from a lender that must be repaid according to agreed terms and conditions.
+A mortgage is a loan used to purchase real estate, with the property serving as collateral.
+Credit risk is the possibility that a borrower will fail to meet their financial repayment obligations.
+Liquidity refers to how easily an asset can be converted into cash without significantly affecting its market value.
+Financial markets allow individuals and institutions to trade assets such as stocks, bonds, and currencies.
+A stock represents ownership in a company and may provide returns through price appreciation and dividends.
+A bond is a debt instrument through which an investor lends money to an issuer in exchange for interest payments.
+Diversification reduces investment risk by spreading investments across different assets and industries.
+A mutual fund pools money from multiple investors to purchase a diversified portfolio of financial assets.
+Exchange rates represent the value of one currency relative to another currency.
+Currency depreciation occurs when a currency loses value relative to other currencies under a floating exchange rate system.
+Foreign direct investment involves investing in business operations or assets in another country with a lasting interest.
+A trade deficit occurs when a country's imports exceed its exports during a given period.
+A trade surplus occurs when a country's exports exceed its imports during a given period.
+Public debt represents the total outstanding borrowing obligations of a government.
+A budget deficit occurs when government expenditure exceeds government revenue during a specific period.
+A budget surplus occurs when government revenue exceeds government expenditure.
+The consumer price index measures changes in the prices of a basket of goods and services commonly purchased by households.
+Producer price indices measure changes in prices received by domestic producers for their output.
+Deflation is a sustained decrease in the general price level of goods and services.
+Stagflation describes an economic situation involving high inflation, weak economic growth, and high unemployment.
