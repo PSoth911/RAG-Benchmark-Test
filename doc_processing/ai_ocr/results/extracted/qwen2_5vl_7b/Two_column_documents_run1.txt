@@ -1,0 +1,25 @@
+A TWO COLUMN ARXIV TEMPLATE
+PREPRINT, COMPILED TUESDAY 3RD AUGUST, 2021
+Brenhin Keller
+1 Dartmouth College
+ABSTRACT
+Morbi eu neque et enim euismod cursus sit amet sit amet elit: Fusce eget neque placerat, vehicula dui id, placerat velit. Proin pellentesque fermentum sollicitudin. Etiam egestas sed dolor rutrum faucibus. Nunc ac viverra justo. Vestibulum eget erat pretium sem blandit placerat ullamcorper nec velit. Aliquam orci enim, luctus tempor euismod a, aliquam in ex. Morbi ultrices sapien quis neque sagittis condimentum.
+Keywords keyword1, keyword2, keyword3
+1 INTRODUCTION
+Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus. Donec aliquet, tortor sed accumsan bibendum, erat ligula aliquet magna, vitae ornare odio metus a mi. Morbi ac orci et nisl hendrerit mollis. Suspendisse ut massa. Cras nec ante. Pellentesque a nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam tincidunt urna. Nulla ullamcorper vestibulum turpis. Pellentesque cursus luctus mauris. Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus viverra fermentum felis. Donec nonummy pellentesque ante. Phasellus adipiscing semper elit. Proin fermentum massa ac quam. Sed diam turpis, molestie vitae, placerat a, molestie nec, leo. Maecenas lacinia. Nam ipsum ligula, eleifend at, accumsan nec, suscipit a, ipsum. Morbi blandit ligula feugiat magna. Nunc eleifend consequat lorem. Sed lacinia nulla vitae enim. Pellentesque tincidunt purus vel magna. Integer non enim. Praesent euismod nunc eu purus. Donec bibendum quam in tellus. Nullam cursus pulvinar lectus. Donec mi. Nam vulputate metus eu enim. Vestibulum pellentesque felis eu massa.
+2 HEADINGS: FIRST LEVEL
+Sed commodo posuere pede. Mauris ut est. Ut quis purus. Sed ac odio. Sed vehicula hendrerit sem. Duis non odio. Morbi ut dui. Sed accumsan risus eget odio. In hac habitasse platea dictumst. Pellentesque non elit. Fusce sed justo eu urna porta tincidunt. Mauris felis odio, sollicitudin sed, volutpat at, ornare ac, erat. Morbi quis dolor. Donec pellentesque, erat ac sagittis semper, nunc id lobortis purus, quis congue purus metus ultricies tellus. Proin et quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Praesent sapien turpis, fermentum vel, eleifend faucibus, vehicula eu, lacus. See Section 2.
+2.1 Headings: second level
+Fusce mauris. Vestibulum luctus nibh at lectus. Sed bibendum, nulla a faucibus semper, leo velit ultricies tellus, ac venenatis arcu wisi vel nisl. Vestibulum diam. Aliquam pellentesque, augue quis sagittis posuere, turpis lacus congue quam, in hendrerit
+Equation (1)
+\[
+\begin{aligned}
+& \varepsilon_{ij}(t)=\frac{\alpha_{i}(t) \beta_{j}^{m} \beta_{j}(t+1) b_{j}^{m+1}\left(y_{i+1}\right)}{\sum_{i=1}^{N} \sum_{j=1}^{N} \alpha_{i}(t) \beta_{j}^{m} \beta_{j}(t+1) b_{j}^{m+1}\left(y_{i+1}\right)}
+\end{aligned}
+\]
+2.1.1 Headings: third level
+Suspendisse vel felis. Ut lorem ipsum, interdum eu, tincidunt sit amet, laoreet vitae, arcu. Aenean faucibus pede eu ante. Praesent enim elit, rutrum at, molestie non, nonummy vel, nisl. Ut lectus eros, malesuada sit amet, fermentum eu, sodales cursus, magna. Donec eu purus. Quisque vehicula, urna sed ultricies auctor, pede lectus euismod a, convalis elit erat sed nulla. Donec luctus. Curabitur et nunc. Aliquam dolor odio, commodo pretium, ultricies non, pharetra in, velit. Integer arcu est, nonummy in, fermentum faucibus, egestas vel, odio.
+Paragraph
+Sed commodo posuere pede. Mauris ut est. Ut quis purus. Sed ac odio. Sed vehicula hendrerit sem. Duis non odio. Morbi ut dui. Sed accumsan risus eget odio. In hac habitasse platea dictumst. Pellentesque non elit. Fusce sed justo eu urna porta tincidunt. Mauris felis odio, sollicitudin sed, volutpat at, ornare ac, erat. Morbi quis dolor. Donec pellentesque, erat ac sagittis semper, nunc id lobortis purus, quis congue purus metus ultricies tellus. Proin et quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Praesent sapien turpis, fermentum vel, eleifend faucibus, vehicula eu, lacus.
+3 EXAMPLES OF CITATIONS, FIGURES, TABLES, REFERENCES
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio elit, dictum in, hendrerit sit amet, egestas sed, leo. Praesent feugiat sapien aliquet odio. Integer vitae justo. Aliquam vestibulum fringilla lorem.

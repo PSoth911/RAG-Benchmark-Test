@@ -1,0 +1,22 @@
+[
+  {
+    "image": "Chart_Understanding.png",
+    "question": "Which year had the highest revenue?",
+    "ground_truth": "2025"
+  },
+  {
+    "image": "Table_Understanding.png",
+    "question": "What was the company's net profit?",
+    "ground_truth": "$30,000"
+  },
+  {
+    "image": "Document_Understanding.png",
+    "question": "What is the main subject of this document?",
+    "ground_truth": "Annual financial report"
+  },
+  {
+    "image": "Visual_Question_Answering.png",
+    "question": "What trend is shown in the chart?",
+    "ground_truth": "Revenue increases over time"
+  }
+]

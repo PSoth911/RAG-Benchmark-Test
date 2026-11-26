@@ -1,0 +1,76 @@
+# Financial Highlights — Ground Truth
+
+[Green banner, top left]: **FINANCIAL HIGHLIGHTS | HEALTHY & SUSTAINABLE GROWTH**
+
+## Main Table
+
+*Dollars in millions, except per share amounts; years ended December 31*
+
+| | 2021 | % Change | 2020 | % Change | 2019 |
+|---|---:|---:|---:|---:|---:|
+| **Reported Income Statement Data** | | | | | |
+| Net sales | $6,894 | 15% | $5,987 | (4)% | $6,209 |
+| Operating income | 310 | (47)% | 582 | (12)% | 664 |
+| Diluted earnings per share | 1.73 | (66)% | 5.15 | (16)% | 6.13 |
+| **Balance Sheet and Other Data** | | | | | |
+| Cash and cash equivalents | 328 | | 665 | | 264 |
+| Total assets | 6,999 | | 6,858 | | 6,040 |
+| Total debt | 2,046 | | 2,186 | | 1,848 |
+| Total equity (including redeemable equity) | 3,225 | | 3,072 | | 2,772 |
+| Annual dividends declared per common share | 2.58 | | 2.54 | | 2.51 |
+| Net debt to adjusted EBITDA ratio¹ | 1.9 | | 1.7 | | 1.7 |
+| Cash provided by operations | 392 | | 829 | | 680 |
+| Mechanical stores expense | 55 | | 54 | | 57 |
+| Depreciation and amortization | 220 | | 213 | | 220 |
+| Capital expenditures and mechanical stores purchases | 300 | | 340 | | 328 |
+
+## SALES (BASED ON 2021 NET SALES)
+
+[Pie chart]
+
+[Pie chart segment percentages, clockwise from the large left-hand slice]: 54%, 9%, 8%, 11%, 18%.
+
+[Legend, in order]:
+- FOOD
+- BEVERAGE
+- BREWING
+- ANIMAL NUTRITION
+- OTHER
+
+[The legend has no color swatches. The correspondence between individual percentages and legend labels cannot be confirmed.]
+
+## Callout Figures
+
+**3.6%**
+
+10-YEAR ADJUSTED EPS COMPOUND ANNUAL GROWTH RATE¹
+
+**10.7%**
+
+ADJUSTED RETURN ON INVESTED CAPITAL¹
+
+## Bar Charts
+
+[The '21 bar is green in each chart. The '20 and '19 bars are gray.]
+
+| Chart | '21 | '20 | '19 |
+|---|---:|---:|---:|
+| **NET SALES** (in millions) | $6,894 | $5,987 | $6,209 |
+| **OPERATING INCOME** (in millions) | $310 | $582 | $664 |
+| **REPORTED DILUTED EARNINGS PER SHARE** (in dollars) | $1.73 | $5.15 | $6.13 |
+| **ADJUSTED DILUTED EARNINGS PER SHARE¹** (in dollars) | $6.67 | $6.23 | $6.65 |
+| **ADJUSTED RETURN ON INVESTED CAPITAL¹** (percentage) | 10.7% | 10.8% | 12.1% |
+| **MARKET CAPITALIZATION** as of 12/31/21 (in billions) | $6.4 | $5.3 | $6.3 |
+
+## Footnote
+
+¹ See Financial Performance Metrics beginning on page S2 of the Annual Report on Form 10-K for a reconciliation of these metrics, which are not calculated in accordance with Generally Accepted Accounting Principles (GAAP), to the most comparable GAAP measures
+
+[Page number, bottom left]: 10
+
+## Transcription Notes
+
+- Parentheses in the "% Change" columns indicate negative changes, as printed.
+- The bar chart values match the main table where they overlap: net sales, operating income, and reported diluted earnings per share.
+- The "¹" markers appear on the net debt to adjusted EBITDA row, both callouts, and the adjusted EPS and adjusted ROIC chart titles. They refer to the single footnote.
+- The pie chart percentages are transcribed in clockwise order. Their correspondence to legend labels is not confirmed.

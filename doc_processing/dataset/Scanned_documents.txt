@@ -1,0 +1,93 @@
+# Scanned Electricity Bill — Ground Truth
+
+## Header
+
+[NESCO logo, top left]
+
+[QR code and circular seal, top right]
+
+**S&D Sirajganj-II**
+
+**Duplicate Copy**
+
+[Bilingual Bengali/English field labels above each value; too small to read reliably]
+
+| Field | Value |
+|---|---|
+| Bill month | MAY-25 |
+| Customer / account no. | [?] 0525710249955 |
+| Tariff | LT-E |
+| Meter / connection no. | [?] 7102495 / 7622 |
+| Sanctioned load | [?] 25 |
+| Meter type | Three Phase, Normal |
+| Meter no. | [?] 4268610 |
+| Bill date | 30/05/25 |
+| Reading period | 31/05/25 to 30/06/25 [?] |
+| Other | Check, 8000 [?] |
+
+**Customer:**
+
+PROJECT DIRECTOR  
+SIRAJGONJ (150) MW PEAKING POWER PLANT  
+OYDABADY [?], SIRAJGONJ
+
+**BIN: 001293137-1101**
+
+[The BIN is printed vertically in the left margin on both the top and bottom of the page.]
+
+## Meter Reading and Consumption Table
+
+[Column labels are bilingual and difficult to read.]
+
+| Date | Reading values (as legible) |
+|---|---|
+| 31/05/25 | 2453.85, 344.50, 0.0, 0.00 |
+| 30/04/25 | 1163.22 / 1.611, 36.17, 0.0, 0.00 |
+| Sub-rows | 7847, 0.0, 808, 6969 |
+
+[All table values are partly uncertain.]
+
+## Monthly History
+
+| Month | Values (as legible) |
+|---|---|
+| MAY-25 | [?] |
+| APR-25 | 11373 |
+| MAR-25 | 3841, 4000 |
+| FEB-25 | 9125, 1233 |
+| JAN-25 | 3070, 1.00 |
+| DEC-24 | 3213, 0.0 |
+| NOV-24 | 3936, 0.0, 5115 |
+
+[Related columns show 0.0 / 0.00 and 6.0 / 25 for most months.]
+
+## Bill Amounts
+
+| Item | Amount |
+|---|---:|
+| Energy charge / principal | 72,198.00 |
+| Another charge line | 3,438.00 |
+| Subtotal | 72,198.00 |
+| Total (current) | 75,636.00 |
+| Arrear / previous balance | 68,760 → 68,760 [?] |
+| Adjustment lines | 0.0, 0.00, 250.00 |
+| Totals appearing near the bottom | 72,198 / 3,438 / 75,636.00 |
+
+**Last Paid: 179862.00 on 22/05/25**
+
+## Payment Slip
+
+| Field | Value |
+|---|---|
+| Month | MAY-25 |
+| Amount (before due date) | 72,198.00 |
+| Surcharge | 3,438.00 |
+| Total payable | 75,636.00 |
+| Due dates | 30/06/25, 31/05/25 |
+| Tariff | LT-E |
+
+[Handwritten check mark or stroke appears in the address field.]
+
+[Punch-hole shadows run down the right edge.]
+
+[Stamp and watermark text in the middle are unreadable.]

@@ -1,0 +1,43 @@
+Preparation of Papers in Single-Column Format for Publications of IEI (18 pts Times Roman & upper-lower case)
+
+Xxx Sharma1, Yyy Rao2 and ..... (14 pts Times Roman & upper-lower case)
+1Department of (Dept. name)
+(College / University / Organisation Name)
+(Full Address with pin code)
+(Corresponding author's email: abo@...com) (10 pts Times Roman & lower case)
+
+2Department of (Dept. name)
+(College / University / Organisation Name)
+(Full Address with pin code)
+(Corresponding author's email: abo@...com) (10 pts Times Roman & lower case)
+
+PREPARATION OF THE PAPER
+
+1. Abstract (9 pts Times Roman face & upper-lower bold case)
+
+These instructions give you the basic guidelines for preparing papers for IEI Convention Proceedings. Abstract should be between 150 and 200 words. (9 pts Times Roman face & normal case)
+
+2. Keywords (9 pts Times Roman & upper-lower bold case)
+
+No more than 6 and separated with ; (semi-colon) (9 pts Times Roman & upper-lower case)
+
+3. Paper Size, Page Margins & Page Format
+
+Prepare the paper in A4 size in MS Word format with Normal margin & Justify alignment.
+
+4. Type Face and Type Sizes of Text
+
+Times New Roman is the preferred font face and 10 pts type size.
+
+The font type sizes are given in points:
+- TITLE : ALL CAPITAL CASE & BOLD
+- Sub-Title : Upper-Lower Case & Bold
+- Body of text : Normal sentence case
+
+Check spelling and grammar.
+
+5. Figures and Tables
+
+Try to position Figures (use high resolution (300 dpi or above) figures, plots, drawings and photos for best printing result) and Tables at the tops and bottoms of the page and avoid placing them in the middle of page. Figure captions should be centered below the figures; Table captions should be centered above the table.
+
+Avoid placing figures and tables before their first mention in the text.

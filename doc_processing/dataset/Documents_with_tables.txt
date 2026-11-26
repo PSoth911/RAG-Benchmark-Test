@@ -1,0 +1,49 @@
+# Income Statement — Ground Truth
+
+[Page number, top right]: 4
+
+# Income Statement (last 3 months)
+
+**April 2022 - June 2022**
+
+| Name | Vs Month Avg | Apr '22 | May '22 | Jun '22 | Total |
+|---|---:|---:|---:|---:|---:|
+| INCOME | | - | - | - | - |
+| Sales | + $6,796 (–) | - | - | $6,796 | $6,796 |
+| Subscription Sales | | $35,849 | $38,032 | $33,384 | $107,265 |
+| Test Sales | + $7,950 (–) | - | - | $7,950 | $7,950 |
+| **Total Income [1]** | + $11,190 (30%) | **$35,849** | **$38,032** | **$48,131** | **$122,012** |
+| COST OF GOODS SOLD | | - | - | - | - |
+| Hosting Fees | - $3,627 (77%) | $8,475 | $992 | $1,106 | $10,575 |
+| Job Supplies | + $1,150 (–) | - | - | $1,150 | $1,150 |
+| **Total Cost of Goods Sold** | - $2,477 (52%) | **$8,475** | **$992** | **$2,256** | **$11,725** |
+| GROSS PROFIT | + $13,668 (42%) | $27,373 | $37,039 | $45,874 | $110,287 |
+| EXPENSES | | - | - | - | - |
+| 5050 Headcount Spend | | $46,685 | $49,518 | $39,149 | $135,353 |
+| 5070 Advertising & Marketing | - $4,603 (36%) | $17,442 | $8,013 | $8,124 | $33,579 |
+| 5080 Office/G&A Expenses | | $8,941 | $4,160 | $5,243 | $18,346 |
+| 5100 Premises | | $3,815 | $3,814 | $3,694 | $11,324 |
+| 5200 Legal & Professional Services | + $1,700 (–) | - | - | $1,700 | $1,700 |
+| **5900 Other Operating Expenses [2]** | + $11,290 (52%) | $8,154 | $35,072 | $32,904 | $76,132 |
+| Unapplied Cash Bill Payment Expense | + $500 (–) | - | - | $500 | $500 |
+| Uncategorized Expense | | $650 | - | $339 | $989 |
+| **Total Expenses** | | **$85,690** | **$100,579** | **$91,655** | **$277,925** |
+| NET OPERATING INCOME | + $15,147 (25%) | -$58,316 | -$63,540 | -$45,780 | -$167,637 |
+| NET INCOME | + $15,147 (25%) | -$58,316 | -$63,540 | -$45,780 | -$167,637 |
+
+## Footnotes
+
+[1] **Total Income:** Revenue increased because of one off seasonal sales.
+
+[2] **5900 Other Operating Expenses:** This is largely due to an increase in seasonal travel.
+
+## Visual Annotations and Formatting Notes
+
+- Section labels (INCOME, COST OF GOODS SOLD, GROSS PROFIT, EXPENSES, NET OPERATING INCOME, and NET INCOME) appear in light blue in the original.
+- Total rows are bold with a rule above them.
+- Color coding in "Vs Month Avg":
+  - Green: + $6,796, + $7,950, + $11,190, - $3,627, - $2,477, + $13,668, - $4,603, and the two + $15,147 entries.
+  - Red: + $1,150, + $1,700, + $11,290, + $500.
+- Red annotation boxes surround the "Total Income [1]" label, the "5900 Other Operating Expenses [2]" label, and the entire Footnotes section. These are overlays on the original, not part of the statement.
+- A dash (-) in a cell represents an empty value in the original.
+- Some totals differ by $1 or $2 from the sum of their parts. The figures above are transcribed as printed.
