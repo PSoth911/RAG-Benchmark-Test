@@ -1,5 +1,8 @@
 import requests
 import csv
+import json
+import re
+import sys
 import time
 import argparse
 from datetime import datetime
@@ -8,24 +11,35 @@ from pathlib import Path
 # Ollama embedding API endpoint
 OLLAMA_URL = "http://localhost:11434/api/embed"
 
-# Fixed dataset for fair comparison
-TEST_TEXTS = [
-    "Retrieval-Augmented Generation combines information retrieval with language generation.",
-    "Machine learning allows computers to learn patterns from data.",
-    "A vector database stores numerical representations of text.",
-    "Python is a popular programming language for artificial intelligence.",
-    "Document processing extracts useful information from files.",
-    "Natural language processing helps computers understand human language.",
-    "Embeddings represent text as numerical vectors.",
-    "Semantic search finds information based on meaning.",
-    "A chatbot can use retrieved documents to answer questions.",
-    "Ollama allows users to run language models locally."
-]
+BASE_DIR = Path(__file__).parent
+RESULTS_DIR = BASE_DIR / "results"
+DEFAULT_INPUT = BASE_DIR / "finance_texts.txt"
 
 
-def benchmark_embedding(model_name, runs):
+def load_texts(path):
+    """Read one text per line. Skip blank lines and # comments."""
+    path = Path(path)
+
+    if not path.exists():
+        sys.exit(f"Input file not found: {path}")
+
+    with open(path, "r", encoding="utf-8") as file:
+        texts = [
+            line.strip()
+            for line in file
+            if line.strip() and not line.strip().startswith("#")
+        ]
+
+    if not texts:
+        sys.exit(f"No texts found in: {path}")
+
+    return texts
+
+
+def benchmark_embedding(model_name, runs, texts, input_name):
 
     results = []
+    last_embeddings = None
 
     # Warm up the model before measuring
     print(f"\nLoading model: {model_name}")
@@ -33,31 +47,23 @@ def benchmark_embedding(model_name, runs):
     try:
         response = requests.post(
             OLLAMA_URL,
-            json={
-                "model": model_name,
-                "input": TEST_TEXTS
-            },
+            json={"model": model_name, "input": texts},
             timeout=600
         )
-
         response.raise_for_status()
 
     except requests.exceptions.RequestException as error:
         print(f"Model initialization failed: {error}")
-        return results
+        return results, None
 
     # Run benchmark
     for run in range(1, runs + 1):
 
         print(f"\nRunning {model_name} - Test {run}/{runs}")
 
-        payload = {
-            "model": model_name,
-            "input": TEST_TEXTS
-        }
+        payload = {"model": model_name, "input": texts}
 
         try:
-            # Measure execution time
             start_time = time.perf_counter()
 
             response = requests.post(
@@ -65,17 +71,12 @@ def benchmark_embedding(model_name, runs):
                 json=payload,
                 timeout=600
             )
-
             response.raise_for_status()
 
             end_time = time.perf_counter()
-
-            data = response.json()
-
-            # Calculate elapsed time
             elapsed_time = end_time - start_time
 
-            # Extract embeddings
+            data = response.json()
             embeddings = data["embeddings"]
 
             if not embeddings:
@@ -85,27 +86,17 @@ def benchmark_embedding(model_name, runs):
             text_count = len(embeddings)
             dimensions = len(embeddings[0])
 
-            # Extract Ollama metrics
-            total_duration = data.get(
-                "total_duration", 0
-            ) / 1e9
+            total_duration = data.get("total_duration", 0) / 1e9
+            load_duration = data.get("load_duration", 0) / 1e9
 
-            load_duration = data.get(
-                "load_duration", 0
-            ) / 1e9
-
-            # Calculate throughput
             throughput = (
-                text_count / elapsed_time
-                if elapsed_time > 0 else 0
+                text_count / elapsed_time if elapsed_time > 0 else 0
             )
 
-            # Store results
-            result = {
-                "timestamp": datetime.now().isoformat(
-                    timespec="seconds"
-                ),
+            results.append({
+                "timestamp": datetime.now().isoformat(timespec="seconds"),
                 "model": model_name,
+                "input_file": input_name,
                 "run": run,
                 "text_count": text_count,
                 "embedding_dimensions": dimensions,
@@ -113,11 +104,11 @@ def benchmark_embedding(model_name, runs):
                 "ollama_total_seconds": round(total_duration, 4),
                 "load_time_seconds": round(load_duration, 4),
                 "texts_per_second": round(throughput, 2)
-            }
+            })
 
-            results.append(result)
+            # Keep the embeddings from the latest successful run
+            last_embeddings = embeddings
 
-            # Display results
             print("Completed!")
             print(f"Dimensions: {dimensions}")
             print(f"Latency: {elapsed_time:.4f} seconds")
@@ -129,10 +120,55 @@ def benchmark_embedding(model_name, runs):
             IndexError,
             ValueError
         ) as error:
-
             print(f"Benchmark error: {error}")
 
-    return results
+    return results, last_embeddings
+
+
+def preview_embeddings(texts, embeddings, count=3, values=8):
+    """Print a short look at what the embeddings contain."""
+
+    print("\n--- Embedding preview ---")
+
+    for text, vector in list(zip(texts, embeddings))[:count]:
+        norm = sum(v * v for v in vector) ** 0.5
+        shown = ", ".join(f"{v:.4f}" for v in vector[:values])
+
+        print(f"\nText: {text}")
+        print(f"Dimensions: {len(vector)}")
+        print(f"First {values} values: [{shown}, ...]")
+        print(f"Vector length (L2 norm): {norm:.4f}")
+
+
+def export_embeddings(model_name, input_name, texts, embeddings):
+    """Save full embeddings to results/embeddings_<model>.json"""
+
+    if not embeddings:
+        print("No embeddings to export.")
+        return
+
+    RESULTS_DIR.mkdir(exist_ok=True)
+
+    # Make the model name safe for filenames (e.g. "model:latest")
+    safe_name = re.sub(r"[^A-Za-z0-9._-]+", "_", model_name)
+    output_file = RESULTS_DIR / f"embeddings_{safe_name}.json"
+
+    payload = {
+        "model": model_name,
+        "input_file": input_name,
+        "created": datetime.now().isoformat(timespec="seconds"),
+        "text_count": len(embeddings),
+        "embedding_dimensions": len(embeddings[0]),
+        "items": [
+            {"id": i, "text": text, "embedding": vector}
+            for i, (text, vector) in enumerate(zip(texts, embeddings))
+        ]
+    }
+
+    with open(output_file, "w", encoding="utf-8") as file:
+        json.dump(payload, file, indent=2)
+
+    print(f"Embeddings exported to: {output_file}")
 
 
 def export_csv(results):
@@ -141,33 +177,21 @@ def export_csv(results):
         print("No results to export.")
         return
 
-    # Create results directory
-    output_dir = Path(__file__).parent / "results"
-    output_dir.mkdir(exist_ok=True)
+    RESULTS_DIR.mkdir(exist_ok=True)
 
-    output_file = output_dir / "embedding_results.csv"
-
+    output_file = RESULTS_DIR / "embedding_results.csv"
     file_exists = output_file.exists()
 
-    # Append results to CSV
-    with open(
-        output_file,
-        "a",
-        newline="",
-        encoding="utf-8"
-    ) as file:
+    with open(output_file, "a", newline="", encoding="utf-8") as file:
 
-        writer = csv.DictWriter(
-            file,
-            fieldnames=results[0].keys()
-        )
+        writer = csv.DictWriter(file, fieldnames=results[0].keys())
 
         if not file_exists or output_file.stat().st_size == 0:
             writer.writeheader()
 
         writer.writerows(results)
 
-    print(f"\nResults exported to: {output_file}")
+    print(f"Results exported to: {output_file}")
 
 
 if __name__ == "__main__":
@@ -189,14 +213,31 @@ if __name__ == "__main__":
         help="Number of benchmark runs"
     )
 
+    parser.add_argument(
+        "--input",
+        default=str(DEFAULT_INPUT),
+        help="Text file with one test text per line"
+    )
+
     args = parser.parse_args()
 
     if args.runs < 1:
         parser.error("--runs must be at least 1")
 
-    results = benchmark_embedding(
+    texts = load_texts(args.input)
+    input_name = Path(args.input).name
+
+    print(f"Loaded {len(texts)} texts from {input_name}")
+
+    results, embeddings = benchmark_embedding(
         args.model,
-        args.runs
+        args.runs,
+        texts,
+        input_name
     )
+
+    if embeddings:
+        preview_embeddings(texts, embeddings)
+        export_embeddings(args.model, input_name, texts, embeddings)
 
     export_csv(results)

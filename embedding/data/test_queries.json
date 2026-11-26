@@ -1,0 +1,17 @@
+[
+  {
+    "id": "Q001",
+    "text": "What was the company's revenue in 2025?",
+    "relevant_docs": ["DOC001"]
+  },
+  {
+    "id": "Q002",
+    "text": "What was the company's net profit in 2025?",
+    "relevant_docs": ["DOC003"]
+  },
+  {
+    "id": "Q003",
+    "text": "How much revenue did the company generate in 2024?",
+    "relevant_docs": ["DOC004"]
+  }
+]

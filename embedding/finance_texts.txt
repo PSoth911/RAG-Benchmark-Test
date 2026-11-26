@@ -1,0 +1,19 @@
+# One text per line. Empty lines and lines starting with # are ignored.
+A stock represents partial ownership in a publicly traded company.
+Bonds are debt securities that pay fixed interest over a set period.
+Diversification spreads investments across assets to reduce risk.
+Inflation reduces the purchasing power of money over time.
+The central bank raised interest rates to control rising prices.
+A balance sheet shows a company's assets, liabilities, and shareholder equity.
+Net profit is revenue minus all operating costs, interest, and taxes.
+Compound interest allows savings to grow by earning interest on previous interest.
+An exchange-traded fund tracks an index and trades like a single stock.
+Credit scores help lenders estimate the risk of lending to a borrower.
+Cash flow statements track how money moves in and out of a business.
+Venture capital firms invest in early-stage startups with high growth potential.
+A bear market occurs when stock prices fall 20 percent or more from recent highs.
+Mortgage lenders require a down payment and proof of stable income.
+Cryptocurrencies are digital assets secured by cryptography and recorded on a blockchain.
+Quarterly earnings reports reveal how well a company performed over three months.
+Budgeting helps individuals track income and control monthly expenses.
+Exchange rates determine how much one currency is worth in another.
