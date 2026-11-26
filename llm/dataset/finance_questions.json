@@ -1,0 +1,21 @@
+
+[
+  {
+    "id": "Q1",
+    "context": "A savings account is a deposit account held at a financial institution. It allows customers to deposit money and earn interest. Interest rates vary depending on the bank and account type.",
+    "question": "What is a savings account and how does it generate returns?",
+    "reference": "A savings account allows customers to deposit money and earn interest on their balance."
+  },
+  {
+    "id": "Q2",
+    "context": "Inflation is the rate at which the general level of prices for goods and services increases over time. When inflation rises, purchasing power decreases.",
+    "question": "What is inflation and how does it affect purchasing power?",
+    "reference": "Inflation is an increase in general prices over time, reducing the purchasing power of money."
+  },
+  {
+    "id": "Q3",
+    "context": "Compound interest is calculated on both the original principal and accumulated interest.",
+    "question": "Explain how compound interest works.",
+    "reference": "Compound interest is interest calculated on the original principal and previously accumulated interest."
+  }
+]

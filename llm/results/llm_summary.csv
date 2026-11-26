@@ -1,0 +1,5 @@
+﻿model,total_tests,avg_latency_seconds,avg_load_time_seconds,avg_prompt_eval_seconds,avg_generation_seconds,avg_prompt_tokens,avg_generated_tokens,avg_tokens_per_second
+qwen3:8b,6,8.128,0.018,3.329,2.692,102,38.67,14.48
+llama3.1:8b,6,4.484,0.016,0.163,2.224,96,39.67,17.75
+gemma3:4b,6,2.598,0.015,0.137,0.371,103.33,17.33,46.66
+qwen3:4b,6,8.978,0.015,0.079,6.79,96,426.33,62.78

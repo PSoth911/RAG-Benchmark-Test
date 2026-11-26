@@ -1,0 +1,149 @@
+﻿timestamp,model,warmup_time_seconds,question_id,run,question,reference_answer,response,latency_seconds,load_time_seconds,prompt_eval_seconds,generation_seconds,prompt_tokens,generated_tokens,tokens_per_second
+2026-11-26T14:25:32,qwen3:8b,26.331,Q1,1,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,"A savings account is a deposit account held at a financial institution that allows customers to deposit money and earn interest. It generates returns through interest rates, which vary depending on the bank and account type.",24.426,0.018,19.381,2.943,113,40,13.59
+2026-11-26T14:25:37,qwen3:8b,26.331,Q1,2,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,"A savings account is a deposit account held at a financial institution that allows customers to deposit money and earn interest. It generates returns through interest rates, which vary depending on the bank and account type.",5.317,0.018,0.086,3.125,113,40,12.8
+2026-11-26T14:25:41,qwen3:8b,26.331,Q2,1,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.",Inflation is the rate at which the general level of prices for goods and services increases over time. It affects purchasing power by decreasing it as prices rise.,4.332,0.019,0.214,2.025,106,32,15.8
+2026-11-26T14:25:46,qwen3:8b,26.331,Q2,2,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.",Inflation is the rate at which the general level of prices for goods and services increases over time. It affects purchasing power by decreasing it as prices rise.,4.31,0.017,0.071,2.139,106,32,14.96
+2026-11-26T14:25:51,qwen3:8b,26.331,Q3,1,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Compound interest works by calculating interest on both the original principal and the accumulated interest from previous periods. This means the interest earned in each period is added to the principal, and future interest is calculated on this new total.",5.261,0.017,0.152,2.989,87,44,14.72
+2026-11-26T14:25:56,qwen3:8b,26.331,Q3,2,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Compound interest works by calculating interest on both the original principal and the accumulated interest from previous periods. This means the interest earned in each period is added to the principal, and future interest is calculated on this new total.",5.123,0.02,0.073,2.928,87,44,15.03
+2026-11-26T14:26:12,llama3.1:8b,10.301,Q1,1,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,"A savings account is a deposit account held at a financial institution that allows customers to deposit money and earn interest. It generates returns through interest earned on deposited funds, which varies depending on the bank and account type.",5.099,0.024,0.328,2.65,107,43,16.23
+2026-11-26T14:26:16,llama3.1:8b,10.301,Q1,2,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,"A savings account is a deposit account held at a financial institution that allows customers to deposit money and earn interest. It generates returns through interest earned on deposited funds, which varies depending on the bank and account type.",4.533,0.018,0.056,2.386,107,43,18.02
+2026-11-26T14:26:20,llama3.1:8b,10.301,Q2,1,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.",Inflation is the rate at which prices for goods and services increase over time. It decreases purchasing power.,3.747,0.018,0.249,1.378,100,22,15.96
+2026-11-26T14:26:23,llama3.1:8b,10.301,Q2,2,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.",Inflation is the rate at which prices for goods and services increase over time. It decreases purchasing power.,3.31,0.008,0.061,1.165,100,22,18.89
+2026-11-26T14:26:28,llama3.1:8b,10.301,Q3,1,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Compound interest is calculated on both the original principal and the accumulated interest from previous periods. This means that the interest earned in each period is added to the principal, and then interest is calculated on the new, higher balance in the next period.",4.961,0.02,0.218,2.651,81,49,18.48
+2026-11-26T14:26:33,llama3.1:8b,10.301,Q3,2,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Compound interest is calculated on both the original principal and accumulated interest, resulting in a snowball effect where the interest earned in subsequent periods is greater than the previous period. This means that the interest earned is added to the principal, and then the interest is calculated on the new, higher balance.",5.255,0.008,0.065,3.115,81,59,18.94
+2026-11-26T14:26:55,gemma3:4b,18.729,Q1,1,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,A savings account is a deposit account held at a financial institution. It generates returns through interest.,2.777,0.018,0.284,0.407,115,20,49.19
+2026-11-26T14:26:57,gemma3:4b,18.729,Q1,2,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,A savings account is a deposit account held at a financial institution. It generates returns through interest.,2.593,0.017,0.074,0.419,115,20,47.71
+2026-11-26T14:27:00,gemma3:4b,18.729,Q2,1,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.",Inflation is the rate at which prices increase over time. It decreases purchasing power.,2.598,0.019,0.149,0.341,107,17,49.88
+2026-11-26T14:27:03,gemma3:4b,18.729,Q2,2,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.",Inflation is the rate at which prices increase over time. It decreases purchasing power.,2.537,0.014,0.074,0.38,107,17,44.72
+2026-11-26T14:27:05,gemma3:4b,18.729,Q3,1,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Compound interest is calculated on both the original principal and accumulated interest.
+",2.564,0.008,0.155,0.32,88,15,46.92
+2026-11-26T14:27:08,gemma3:4b,18.729,Q3,2,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Compound interest is calculated on both the original principal and accumulated interest.
+",2.519,0.016,0.084,0.361,88,15,41.57
+2026-11-26T14:27:26,qwen3:4b,9.382,Q1,1,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,"Hmm, the user wants me to act as a financial information assistant and answer a specific question using only the provided context. They've given me a context about savings accounts and a question about what a savings account is and how it generates returns.
+
+Let me look at the context carefully: ""A savings account is a deposit account held at a financial institution. It allows customers to deposit money and earn interest. Interest rates vary depending on the bank and account type.""
+
+The question has two parts: first, what is a savings account, and second, how it generates returns. 
+
+For the first part, the context clearly defines it as ""a deposit account held at a financial institution."" That's straightforward.
+
+For the second part about generating returns, the context says it ""allows customers to deposit money and earn interest."" So the returns come from interest earned. The context also mentions that interest rates vary by bank and account type, but that's more about how the interest rate works rather than the mechanism of generating returns.
+
+I need to be careful not to add any information beyond what's in the context. The context doesn't specify the exact mechanism of how interest is calculated or generated - it just says ""earn interest."" So I shouldn't make up details like compounding or interest calculation methods.
+
+The user emphasized keeping the answer simple, accurate, and concise. I should avoid adding extra explanations. Also, they want me to state clearly if information is insufficient, but in this case, the context seems sufficient for the question.
+
+Let me craft a response that directly answers both parts using only the context. I'll make sure it's brief: first define what it is, then explain how returns work based on the context.
+
+I think I have enough information here. The context covers both what a savings account is and how it generates returns (through interest). I won't mention anything about interest rates varying as part of the return mechanism since the question is about how it generates returns, not factors affecting the rate.
+
+Okay, I'll formulate a concise answer that sticks strictly to the context.
+</think>
+
+A savings account is a deposit account held at a financial institution that allows customers to deposit money and earn interest. It generates returns through interest earned on deposits.",9.389,0.017,0.194,7.071,107,447,63.22
+2026-11-26T14:27:36,qwen3:4b,9.382,Q1,2,What is a savings account and how does it generate returns?,A savings account allows customers to deposit money and earn interest on their balance.,"Hmm, the user wants me to act as a financial information assistant and answer a specific question using only the provided context. They've given me a context about savings accounts and a question about what a savings account is and how it generates returns.
+
+Let me look at the context carefully: ""A savings account is a deposit account held at a financial institution. It allows customers to deposit money and earn interest. Interest rates vary depending on the bank and account type.""
+
+The question has two parts: first, what is a savings account, and second, how it generates returns. 
+
+For the first part, the context clearly defines it as ""a deposit account held at a financial institution."" That's straightforward.
+
+For the second part about generating returns, the context says it ""allows customers to deposit money and earn interest."" So the returns come from interest earned. The context also mentions that interest rates vary by bank and account type, but that's more about how the interest rate works rather than the mechanism of generating returns.
+
+I need to be careful not to add any information beyond what's in the context. The context doesn't specify the exact mechanism of how interest is calculated or generated - it just says ""earn interest."" So I shouldn't make up details like compounding or interest calculation methods.
+
+The user emphasized keeping the answer simple, accurate, and concise. I should avoid adding extra explanations. Also, they want me to state clearly if information is insufficient, but in this case, the context seems sufficient for the question.
+
+Let me craft a response that directly answers both parts using only the context. I'll make sure it's brief: first define what it is, then explain how returns work based on the context.
+
+I think I have enough information here. The context covers both what a savings account is and how it generates returns (through interest). I won't mention anything about interest rates varying as part of the return mechanism since the question is about how it generates returns, not factors affecting the rate.
+
+Okay, I'll formulate a concise answer that sticks strictly to the context.
+</think>
+
+A savings account is a deposit account held at a financial institution that allows customers to deposit money and earn interest. It generates returns through interest earned on deposits.",9.266,0.017,0.033,7.097,107,447,62.98
+2026-11-26T14:27:45,qwen3:4b,9.382,Q2,1,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.","Hmm, the user wants me to act as a financial information assistant and answer a specific question about inflation using only the provided context. They've given me a context paragraph and a question, and I need to be careful to use only that context without adding external knowledge.
+
+Looking at the context: ""Inflation is the rate at which the general level of prices for goods and services increases over time. When inflation rises, purchasing power decreases.""
+
+The question is: ""What is inflation and how does it affect purchasing power?""
+
+I need to extract the information directly from this context. For what inflation is, the context clearly defines it as ""the rate at and the general level of prices for goods and services increases over time."" For how it affects purchasing power, it states ""When inflation rises, purchasing power decreases.""
+
+I should make sure my answer is simple, accurate, and concise as requested. I'll avoid any extra words or explanations beyond what's in the context. The user emphasized using ONLY the provided context, so I won't add anything like examples or real-world implications.
+
+The context doesn't have enough information about other aspects of inflation or purchasing power, so I don't need to mention anything else. My answer should directly quote or paraphrase the context without distortion.
+
+Let me craft the response: Start with what inflation is, then state how it affects purchasing power. Keep it to one or two sentences max for conciseness.
+
+I think I have it: ""Inflation is the rate at which the general level of prices for goods and services increases over time. It decreases purchasing power when inflation rises.""
+
+That covers both parts of the question using only the context. I'll double-check that I'm not adding anything - yes, this is straight from the context with minimal rewording to make it flow naturally.
+
+The user said if context is insufficient, state that, but here it's sufficient so I don't need that part. My answer is clear and meets all requirements.
+</think>
+
+Inflation is the rate at which the general level of prices for goods and services increases over time. It decreases purchasing power when inflation rises.",8.93,0.014,0.108,6.746,100,427,63.3
+2026-11-26T14:27:53,qwen3:4b,9.382,Q2,2,What is inflation and how does it affect purchasing power?,"Inflation is an increase in general prices over time, reducing the purchasing power of money.","Hmm, the user wants me to act as a financial information assistant and answer a specific question about inflation using only the provided context. They've given me a context paragraph and a question, and I need to be careful to use only that context without adding external knowledge.
+
+Looking at the context: ""Inflation is the rate at which the general level of prices for goods and services increases over time. When inflation rises, purchasing power decreases.""
+
+The question is: ""What is inflation and how does it affect purchasing power?""
+
+I need to extract the information directly from this context. For what inflation is, the context clearly defines it as ""the rate at and the general level of prices for goods and services increases over time."" For how it affects purchasing power, it states ""When inflation rises, purchasing power decreases.""
+
+I should make sure my answer is simple, accurate, and concise as requested. I'll avoid any extra words or explanations beyond what's in the context. The user emphasized using ONLY the provided context, so I won't add anything like examples or real-world implications.
+
+The context doesn't have enough information about other aspects like causes of inflation or different types, so I'll stick strictly to what's given. My answer should directly address both parts of the question using the context phrases.
+
+I'll phrase it as: ""Inflation is the rate at which the general level of prices for goods and services increases over time. It decreases purchasing power when inflation rises.""
+
+That covers both parts clearly and concisely. I'm checking that I'm not adding anything - the context says ""purchasing power decreases"" when inflation rises, so I'm using that exact relationship.
+
+The user said if context is insufficient, I should state that, but here it's sufficient for the question. So no need for that disclaimer.
+
+Final answer will be short and to the point.
+</think>
+
+Inflation is the rate at which the general level of prices for goods and services increases over time. It decreases purchasing power when inflation rises.",8.562,0.01,0.031,6.442,100,404,62.71
+2026-11-26T14:28:02,qwen3:4b,9.382,Q3,1,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Hmm, the user wants me to act as a financial information assistant and answer how compound interest works using ONLY the provided context. They've given me a specific context statement: ""Compound interest is calculated on both the original principal and accumulated interest."" And they want me to be simple, accurate, and concise.
+
+Looking at the context, it's quite brief - just one sentence defining what compound interest is. The context says it's calculated on both the original principal and accumulated interest. That's the key point here. 
+
+I need to make sure I don't add any extra information beyond what's in the context. The user specifically said ""using ONLY the provided context"" and ""if the context does not contain enough information, clearly state that."" But in this case, the context actually does contain enough information to explain how it works - it defines the core mechanism.
+
+The context explains that compound interest works by being calculated on two things: the original principal (the initial amount of money) and the accumulated interest (the interest that has already been earned). That's exactly how compound interest functions - it's interest on interest.
+
+I should craft a response that directly uses this definition without adding examples or further explanation. The user wants it simple and concise. So I'll just rephrase the context statement in a clear, direct way.
+
+I won't say anything like ""this means..."" or add examples. Just state the mechanism as defined in the context. The answer should be one sentence that captures the essence.
+
+Also, I need to be careful not to introduce any new concepts. The context doesn't mention anything about interest rates, time periods, or calculations - just the basic definition. So I'll stick strictly to that.
+
+Okay, my response will be: ""Compound interest is calculated on both the original principal and accumulated interest."" That's exactly what the context says, and it's concise and accurate for the question ""Explain how compound interest works.""
+
+I don't need to say anything about the context being insufficient because it does contain enough information here. The context provides the fundamental explanation needed for this question.
+</think>
+
+Compound interest is calculated on both the original principal and accumulated interest.",9.106,0.01,0.066,6.938,81,435,62.69
+2026-11-26T14:28:11,qwen3:4b,9.382,Q3,2,Explain how compound interest works.,Compound interest is interest calculated on the original principal and previously accumulated interest.,"Hmm, the user wants me to act as a financial information assistant and answer how compound interest works using ONLY the provided context. They've given me a specific context statement: ""Compound interest is calculated on both the original principal and accumulated interest."" And they want me to be simple, accurate, and concise.
+
+Looking at the context, it's quite brief - just one sentence defining what compound interest is. The context says it's calculated on both the original principal and accumulated interest. That's the key point here. 
+
+I need to make sure I don't add any extra information beyond what's in the context. The user specifically said ""using ONLY the provided context"" and ""if the context does not contain enough information, clearly state that the information is insufficient."" 
+
+The context actually does contain enough information to explain how compound interest works in a very basic way. It tells me that compound interest is calculated on two things: the original principal (the initial amount of money) and accumulated interest (the interest that has already been earned). 
+
+I should craft a response that directly uses this definition without adding examples, formulas, or other details. The user wants it simple and concise. 
+
+I think I can say something like: ""Compound interest is calculated on both the original principal and accumulated interest."" That's exactly what the context says, so it's accurate and sufficient. 
+
+I don't need to add anything else because the context provides the core explanation. The user didn't ask for examples or calculations, just an explanation based on the given context. 
+
+Let me double-check - is there any missing information? The context defines what it is but doesn't explain the mechanism. However, for the purpose of this question, the definition given is sufficient to explain how it works in the simplest terms. 
+
+Yes, I'll go with that simple statement from the context. It's precise and matches what the user requested.
+</think>
+
+Compound interest is calculated on both the original principal and accumulated interest.",8.617,0.021,0.04,6.443,81,398,61.78
